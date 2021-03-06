@@ -1,0 +1,11 @@
+== Suppressed Messages ==
+
+# IG publisher does not resolve FHIR-ModelInfo and FHIRHelpers
+ERROR: Library/FHIRHelpers-4.0.1: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/CDSConnectCommons: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/CDSConnectCommons: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
+ERROR: Library/PreventiveCareData: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/PreventiveCareData: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
+ERROR: Library/PreventiveCareHooks: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/ProstateCancerScreening: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/ProstateCancerScreening: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve

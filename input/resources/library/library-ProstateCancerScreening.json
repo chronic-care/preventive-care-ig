@@ -1,0 +1,70 @@
+{
+  "resourceType": "Library",
+  "id": "ProstateCancerScreening",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablelibrary",
+      "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablelibrary",
+      "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-publishablelibrary",
+      "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablelibrary"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "shareable"
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "computable"
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "publishable"
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "executable"
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+      "valueCode": "structured"
+    }
+  ],
+  "name": "ProstateCancerScreening",
+  "title": "CQL Library - CDS Logic for Prostate Cancer Screening and Personalized Care Plans",
+  "description": "This library contains logic to support prostate cancer screening and personalized, patient-centered care plans.",
+  "status": "active",
+  "experimental": true,
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/library-type",
+        "code": "logic-library"
+      }
+    ]
+  },
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "focus",
+        "display": "Clinical Focus"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "254900004",
+            "display": "Carcinoma of prostate (disorder)"
+          }
+        ]
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": "ig-loader-ProstateCancerScreening.cql"
+    }
+  ]
+}
