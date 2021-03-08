@@ -1,6 +1,6 @@
 // CDS Connect Commons for FHIRv400
 
-library CDSConnectCommons version '1.0.3'
+library CDSConnectCommons version '1.0.0'
 
 using FHIR version '4.0.1'
 

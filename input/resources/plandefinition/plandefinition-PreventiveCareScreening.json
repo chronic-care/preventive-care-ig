@@ -66,7 +66,7 @@
   ],
   "copyright": "© U.S. Preventive Services Task Force (USPSTF) 2020+.",
   "library": [
-    "http://fhir.org/guides/acep/Library/PreventiveCareHooks"
+    "http://fhir.org/guides/preventive-care/Library/PreventiveCareHooks"
   ],
   "action": [
     {
@@ -89,7 +89,7 @@
         {
           "kind": "applicability",
           "expression": {
-            "language": "text/cql.identifier",
+            "language": "text/cql",
             "expression": "Needs Prostate Cancer Screening"
           }
         }
@@ -98,21 +98,21 @@
         {
           "path": "action.title",
           "expression": {
-            "language": "text/cql.identifier",
+            "language": "text/cql",
             "expression": "Needs Prostate Cancer Screening Summary"
           }
         },
         {
           "path": "action.description",
           "expression": {
-            "language": "text/cql.identifier",
+            "language": "text/cql",
             "expression": "Needs Prostate Cancer Screening Detail"
           }
         },
         {
           "path": "action.extension",
           "expression": {
-            "language": "text/cql.identifier",
+            "language": "text/cql",
             "expression": "Needs Prostate Cancer Screening Indicator"
           }
         }

@@ -47,6 +47,20 @@
       }
     }
   ],
+  "dataRequirement": [
+    {
+      "type": "Observation",
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/Observation"
+      ]
+    },
+    {
+      "type": "Condition",
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/Condition"
+      ]
+    }
+  ],
   "content": [
     {
       "id": "ig-loader-PreventiveCareHooks.cql"

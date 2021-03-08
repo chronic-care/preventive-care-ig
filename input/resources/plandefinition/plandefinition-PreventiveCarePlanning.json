@@ -1,0 +1,101 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "PreventiveCarePlanning",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pathwaydefinition"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "shareable"
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "computable"
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode": "publishable"
+    }
+  ],
+  "url": "http://fhir.org/guides/preventive-care/PlanDefinition/PreventiveCareScreening",
+  "identifier": [
+    {
+      "use": "official",
+      "value": "PlanDefinition_PreventiveCarePlanning"
+    }
+  ],
+  "version": "0.1.0",
+  "name": "ProstateCancerScreening",
+  "title": "PlanDefinition - Patient-Directed Care Plan for Prostate Cancer Screening",
+  "description": "Create a patient-directed preventive care plan for Prostate Cancer screening.",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "clinical-protocol"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-03-08",
+  "publisher": "U.S. Preventive Services Task Force (USPSTF)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.uspreventiveservicestaskforce.org/uspstf/"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "copyright": "© U.S. Preventive Services Task Force (USPSTF) 2020+.",
+  "library": [
+    "http://fhir.org/guides/preventive-care/Library/ProstateCancerScreening"
+  ],
+  "action": [
+    {
+      "title" : "Next Step PSA test in 12 months",
+      "description" : "Next Step PSA test in 12 months",
+      "code" : [
+        {
+          "coding" : [
+            {
+              "system" : "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process",
+              "code" : "guideline-based-care"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title" : "Next Step PSA test in 24 months",
+      "description" : "Next Step PSA test in 24 months",
+      "code" : [
+        {
+          "coding" : [
+            {
+              "system" : "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process",
+              "code" : "guideline-based-care"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

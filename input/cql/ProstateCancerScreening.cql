@@ -13,7 +13,7 @@ using FHIR version '4.0.1'
 // The FHIRHelpers library provides common functions for simplifying interaction w/ the FHIR R4 data model.
 include FHIRHelpers version '4.0.1' called FHIRHelpers
 // The CDS Connect Commons library provides functions representing commonly used CDS logic and patterns.
-include CDSConnectCommons version '1.0.3' called C3F
+include CDSConnectCommons version '1.0.0' called C3F
 // The PreventiveCareConcepts library provides terminology concepts used to identify data elements throughout the artifact.
 include PreventiveCareConcepts version '1.0.0' called PCC
 // The PreventiveCareData library provides common data retrieval logic for preventive care guidelines.
