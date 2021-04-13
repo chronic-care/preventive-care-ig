@@ -112,6 +112,10 @@
     </parameter>
     <parameter>
       <code value="path-resource" />
+      <value value="input/resources/questionnaires"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
       <value value="input/vocabulary/codesystem"/>
     </parameter>
     <parameter>
