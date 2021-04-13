@@ -1,0 +1,78 @@
+{
+  "resourceType" : "ActivityDefinition",
+  "id" : "NextStepAction",
+  "meta" : {
+    "profile" : [
+      "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode" : "shareable"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode" : "computable"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+      "valueCode" : "publishable"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+      "valueCode" : "structured"
+    }
+  ],
+  "url" : "http://fhir.org/guides/preventive-care/ActivityDefinition/NextStepAction",
+  "version" : "1.0.0",
+  "name" : "NextStepAction",
+  "title" : "Activity Next Step Action",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2021-02-11T20:43:58+00:00",
+  "publisher" : "U.S. Preventive Services Task Force (USPSTF)",
+  "description" : "Activity Definition for next step action in a patient's care plan.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "library": [
+    "http://fhir.org/guides/preventive-care/Library/ProstateCancerScreening"
+  ],
+  "kind" : "CommunicationRequest",
+  "profile" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-communicationrequest",
+  "code" : {
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+        "code" : "send-message",
+        "display" : "Send a message"
+      }
+    ]
+  },
+  "doNotPerform" : false,
+  "dynamicValue" : [
+    {
+      "path" : "status",
+      "expression" : {
+        "language" : "text/cql",
+        "expression" : "'draft'"
+      }
+    },
+    {
+      "path" : "payload.content",
+      "expression" : {
+        "language" : "text/cql",
+        "expression" : "Next Step 4"
+      }
+    }
+  ]
+}

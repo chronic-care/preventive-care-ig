@@ -8,8 +8,8 @@ The contents of this repository are licensed under an Apache 2.0 License with an
 
 This Implementation Guide is published in the following locations:
 
-* Continuous Build: https://chronic-care.github.io/preventive-care-ig/
-* QA Report: https://chronic-care.github.io/preventive-care-ig/qa.html
+* Continuous Build: https://chronic-care.github.io/preventive-care/
+* QA Report: https://chronic-care.github.io/preventive-care/qa.html
 
 ## Content IG Walkthrough: Setup and Build
 

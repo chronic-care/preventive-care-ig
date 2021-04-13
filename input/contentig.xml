@@ -5,7 +5,7 @@
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="1.0.0"/>
   <name value="PreventiveCareGuidelines"/>
-  <title value="Pre"/>
+  <title value="Preventive Care Guidelines IG"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="U.S. Preventive Services Task Force (USPSTF)"/>
@@ -15,7 +15,7 @@
       <value value="https://www.uspreventiveservicestaskforce.org/uspstf/"/>
     </telecom>
   </contact>
-  <description value="Implementation guide for preventive care guidelines and patient-centered care plans."/>
+  <description value="Implementation guide for preventive care guidelines and patient-directed care plans."/>
   <jurisdiction>
     <!-- This will drive SNOMED release used -->
     <coding>

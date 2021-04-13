@@ -20,7 +20,7 @@
       "valueCode": "publishable"
     }
   ],
-  "url": "http://fhir.org/guides/preventive-care/PlanDefinition/PreventiveCareScreening",
+  "url": "http://fhir.org/guides/preventive-care/PlanDefinition/PreventiveCarePlanning",
   "identifier": [
     {
       "use": "official",
@@ -81,7 +81,8 @@
             }
           ]
         }
-      ]
+      ],
+      "definitionCanonical" : "http://fhir.org/guides/preventive-care/ActivityDefinition/NextStepAction"
     },
     {
       "title" : "Next Step PSA test in 24 months",
@@ -95,7 +96,8 @@
             }
           ]
         }
-      ]
+      ],
+      "definitionCanonical" : "http://fhir.org/guides/preventive-care/ActivityDefinition/NextStepAction"
     }
   ]
 }
